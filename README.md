@@ -31,7 +31,7 @@ Write a function that accepts an array of numbers and removes each multiple of n
 2. Retain the first element, remove the 2nd (3rd, ...) occurrence with same sum of digits
 3. Empty lists are allowed
 4. Obviously there can't be more than 10 elements in the list after processing ;)
-5. Do not modify the input list
+5. **YOU SHALL NOT** modify the input list
 
 ## Examples
 
