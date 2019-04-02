@@ -12,15 +12,26 @@ Sum up each individual digit of a number until it has only one digit
 - 5678 --> 5+6+7+8 = 26 ---> 2 + 6 = 8
 ```
 
-## Task
+## Task 1
 
-Write a function that accepts an array of numbers and removes each multiple of numbers which have the same sum of digits 
+Write a function that caluclates the sum of digits of a number.
 
-`int[] DuplicateSumOfDigitsRemove.remove(int[] numbers)`
+`int SumOfDigits.calculate(int number`
+
+1. Negative Inputs are not allowed (and shall not be considered)
+
+
+## Task 2
+
+Write a function that accepts an array of numbers and removes each multiple of numbers which have the same sum of digits.
+
+`int[] SumOfDigits.distinct(int[] numbers)`
 
 1. Order has to remain the same
 2. Retain the first element, remove the 2nd (3rd, ...) occurrence with same sum of digits
-3. Obviously there can't be more than 10 elements in the list after processing ;)
+3. Empty lists are allowed
+4. Obviously there can't be more than 10 elements in the list after processing ;)
+5. Do not modify the input list
 
 ## Examples
 
