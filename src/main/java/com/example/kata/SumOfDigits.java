@@ -6,9 +6,9 @@ import java.util.function.IntFunction;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class SumOfDigits {
+class SumOfDigits {
 
-  public static int[] distinct(int[] numbers) {
+  static int[] distinct(int[] numbers) {
     List<Integer> sumOfDigits = sumOfDigits(numbers);
 
     List<Integer> result = IntStream.range(0, numbers.length)
